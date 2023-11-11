@@ -1,8 +1,18 @@
 .container {
-  width: 1260px;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 100%;
+  padding: 0 10px;
   margin: 0 auto;
+  // outline: 2px solid crimson;
 
-  outline: 2px solid crimson;
+  @include mobile {
+    width: 363px;
+  }
+
+  @include tablet {
+    width: 884px;
+  }
+
+  @include desktop {
+    width: 1440px;
+  }
 }

@@ -2,6 +2,7 @@
 @import "./base/reset";
 @import "./base/common";
 @import "./utils/hidden";
+@import "./utils/mixin";
 
 @import "./components/container";
 @import "./components/btn";
@@ -25,4 +26,6 @@
 @import "./modals/backdrop";
 @import "./modals/modal-feedback-form";
 @import "./modals/modal-location-selection-form";
+@import "./modals/modal-menu";
+@import "./modals/modal-prices";
 @import "./modals/modal-review-form";

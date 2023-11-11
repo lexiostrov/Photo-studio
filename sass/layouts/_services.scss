@@ -1,3 +1,7 @@
+.services__section {
+  display: none;
+}
+
 .services__title {
   margin-bottom: 80px;
 }
@@ -10,8 +14,15 @@
 
 .services__wrapItem1 {
   display: flex;
+  gap: 15px;
+  // flex-direction: column;
+  // gap: 34px;
+}
+
+.services__box {
+  display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 15px;
 }
 
 .services__item {
@@ -20,13 +31,15 @@
 }
 
 .services__item--loveStory {
-  width: 391px;
-  height: 335px;
+  // width: 391px;
+  // height: 335px;
 }
 
 .services__wrapImg {
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 5px;
+  // border-radius: 15px;
+  width: 179px;
 }
 
 .services__imgGradient {
@@ -34,9 +47,11 @@
   top: 0;
   left: 0;
 
-  width: 100%;
+  width: 179px;
+  // width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
+  // border-radius: 15px;
 
   background-image: url(../images/services/background-gradient-1.png);
   background-position: bottom 0 left 0;
@@ -49,9 +64,11 @@
   top: 0;
   left: 0;
 
-  width: 100%;
+  width: 179px;
+  // width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
+  // border-radius: 15px;
 
   background-image: url(../images/services/background-gradient-2.png);
   background-position: bottom 0 left 0;
@@ -61,13 +78,17 @@
 
 .services__text {
   position: absolute;
-  bottom: 16px;
-  left: 32px;
+  bottom: 8px;
+  left: 12px;
+  // bottom: 16px;
+  // left: 32px;
 
   color: var(--white-color);
   font-weight: 600;
-  font-size: 16px;
-  line-height: 1.14;
+  font-size: 14px;
+  line-height: 1.2;
+  // font-size: 16px;
+  // line-height: 1.14;
 }
 
 .services__wrapItem2 {
@@ -84,16 +105,26 @@
 .services__wrapItem4 {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 15px;
+  // gap: 34px;
 }
 
 .services__wrapItem5 {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 15px;
+  // gap: 34px;
 }
 
 .services__wrapItem6 {
   display: flex;
   gap: 34px;
+}
+
+.heightImg154 {
+  height: 154px;
+}
+
+.heightImg323 {
+  height: 323px;
 }

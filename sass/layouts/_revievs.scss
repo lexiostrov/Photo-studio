@@ -4,6 +4,7 @@
 
 .reviews__list {
   display: flex;
+  margin-bottom: 32px;
 }
 
 .reviews__item {
@@ -23,17 +24,32 @@
 
   color: var(--primary-text-color);
   font-weight: 600;
-  font-size: 24px;
-  line-height: 1;
+  font-size: 18px;
+  line-height: 1.3;
+  // font-size: 24px;
+  // line-height: 1;
   text-align: center;
 }
 
 .reviews__text {
+  margin-bottom: 8px;
+
   color: var(--secondary-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.7;
+  // font-size: 16px;
+  // line-height: 1.6;
   text-align: center;
+}
+
+.reviews__btnShowMore {
+  color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 00;
+  font-size: 14px;
+  line-height: 1.7;
+  border: transparent;
 }
 
 .reviews__wrapperBtn {
@@ -41,10 +57,12 @@
 }
 
 .reviews__button {
-  padding: 14px 69px;
+  padding: 19.5px 68.5px;
+  // padding: 14px 69px;
   margin: 0 auto;
   display: block;
 
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
+  // font-size: 16px;
 }

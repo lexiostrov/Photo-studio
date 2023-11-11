@@ -1,5 +1,6 @@
 .giftCertificate__section {
-  padding-bottom: 130px;
+  padding-bottom: 60px;
+  padding-top: 50px;
 }
 
 .giftCertificate {
@@ -8,14 +9,18 @@
 
 .giftCertificate__wrapper {
   position: relative;
-  display: flex;
-  padding: 112px 180px 37px 120px;
+  // display: flex;
+  // padding: 112px 180px 37px 120px;
 }
 
 .giftCertificate__wrapperContent {
-  padding-bottom: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // padding-bottom: 113px;
 
-  min-width: 567px;
+  // min-width: 567px;
 }
 
 .giftCertificate__text {
@@ -23,38 +28,51 @@
 
   color: var(--certificate-color);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
+  // font-size: 14px;
   line-height: 1.2;
   letter-spacing: 1px;
 }
 
 .giftCertificate__title {
-  margin-bottom: 52px;
+  margin-bottom: 32px;
+  // margin-bottom: 52px;
 
   color: var(--secondary-color);
+  width: 240px;
+  text-align: center;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 24px;
+  // font-size: 48px;
   line-height: 1.4;
-  letter-spacing: 1px;
 }
 
 .giftCertificate__list {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 9px;
 }
 
 .giftCertificate__itemText {
-  display: inline-flex;
+  display: block;
+  // display: inline-flex;
   color: var(--primary-text-color);
+  text-align: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
+  // font-size: 16px;
   line-height: 1.4;
 
   &::before {
+    // потом убрать
+    display: block;
+    // потом убрать
     content: "";
 
-    margin-right: 16px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    // margin-right: 16px;
 
     width: 24px;
     height: 24px;
@@ -63,23 +81,32 @@
 }
 
 .giftCertificate__wrapperImg {
-  position: absolute;
-  right: 86px;
-  top: -7px;
+  width: 267px;
+  height: 267px;
+  margin: 0 auto;
+
+  // position: absolute;
+  // right: 86px;
+  // top: -7px;
 }
 
 .giftCertificate__box {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .giftCertificate__validityText {
+  margin-bottom: 16px;
+
   color: var(--secondary-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
+  // font-size: 16px;
   line-height: 1.4;
-  width: 380px;
+  width: 326px;
+  // width: 380px;
   text-align: center;
 }
 
@@ -87,7 +114,7 @@
   display: flex;
   justify-content: center;
 
-  margin-top: 24px;
+  // margin-top: 24px;
   min-width: 342px;
 }
 
