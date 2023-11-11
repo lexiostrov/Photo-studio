@@ -1,0 +1,153 @@
+.price__title {
+  font-weight: 700;
+}
+
+.price__list {
+  display: flex;
+  justify-content: center;
+}
+
+.price__itemWrapper {
+  display: flex;
+  margin-top: 102px;
+  margin-right: 22px;
+  gap: 22px;
+}
+
+.price__listServices {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.price__itemPackage {
+  padding: 48px 14px 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price__itemMaxi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+
+  background-color: #f5d9c6;
+  border-radius: 16px;
+}
+
+.price__wrapContent {
+  width: 309px;
+}
+
+.price__packageText {
+  margin-bottom: 16px;
+
+  color: var(--primary-text-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.price__price {
+  margin-bottom: 4px;
+
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.price__quantityOfLocations {
+  margin-bottom: 40px;
+
+  color: var(--color-1location);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.price__itemText {
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+
+  &::before {
+    content: "";
+    margin-right: 8px;
+
+    min-width: 18px;
+    height: 18px;
+
+    background-image: url(../images/gift-certificate/check-circle.svg);
+    background-repeat: no-repeat;
+  }
+}
+
+.price__titleAddServices {
+  margin-bottom: 12px;
+
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.price__listAddServices {
+  margin-bottom: 52px;
+
+  display: flex;
+  gap: 5px;
+}
+
+.price__wrapperBtnAddServices {
+  margin-bottom: 40px;
+}
+
+.price__buttonAddServices {
+  padding: 6px 5px;
+
+  color: var(--secondary-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.price__buttonHelpWithPosing {
+  padding: 6px 5px;
+  display: block;
+
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  width: 108px;
+}
+.price__buttonVisagiste {
+  padding: 6px 8px;
+
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  width: 82px;
+}
+.price__buttonAddRetouch {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 0.5px;
+
+  width: 170px;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+}
+
+.price__wrapperButton {
+  min-width: 370px;
+}
+
+.price__bookBtn {
+  padding: 14px 88px;
+
+  min-width: 370px;
+}

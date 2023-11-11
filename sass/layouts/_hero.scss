@@ -1,0 +1,56 @@
+.section-hero {
+  margin: 0 auto;
+  padding: 149px 0 141px;
+
+  max-width: 1440px;
+
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--hero-background-color);
+}
+
+.hero__title {
+  margin-bottom: 52px;
+
+  color: var(--hero-text-color);
+  font-size: 66px;
+  line-height: 1.18;
+  width: 791px;
+}
+
+.hero__titleProffesional {
+  letter-spacing: 3.3px;
+}
+
+.hero__secondaryTittle {
+  margin-bottom: 24px;
+  text-align: start;
+
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.2;
+  max-width: 733px;
+}
+
+.hero__text {
+  margin-bottom: 32px;
+
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 791px;
+}
+
+.hero__button {
+  position: relative;
+  padding: 22px 27px;
+
+  font-weight: 600;
+  font-size: 16px;
+  min-width: 366px;
+  text-transform: uppercase;
+}

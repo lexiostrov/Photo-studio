@@ -1,0 +1,125 @@
+.modalFeedbackForm {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 60px 40px;
+
+  min-width: 1033px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.modalFeedbackForm__wrapImg {
+  position: absolute;
+  bottom: 53px;
+  left: 34px;
+}
+
+.wrapIcon {
+  position: absolute;
+  top: -16px;
+  right: 0;
+  transform: translate(0, -100%);
+
+  width: 21px;
+  height: 21px;
+}
+
+.modalForm__closeBtn {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  width: 21px;
+  height: 21px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* FEEDBACK MODAL */
+
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 479px;
+  margin-left: auto;
+}
+
+.form__text {
+  margin-bottom: 32px;
+
+  color: var(--primary-text-color);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.form__fieldWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.form__field {
+  display: block;
+  width: 420px;
+}
+
+.form__field input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 18px 16px;
+
+  width: 420px;
+  color: var(--primary-text-color);
+  border-radius: 5px;
+  border: 1px solid #dddee4;
+}
+
+.form__field input::placeholder {
+  color: #dddee4;
+}
+
+.form__field:focus-within input {
+  outline: 1px solid #e97522;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 8px;
+
+  color: #b1b1b1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.form__btnSubmit {
+  padding: 14px 144px;
+  margin-bottom: 16px;
+
+  width: 420px;
+  font-size: 16px;
+}
+
+.form__textContent {
+  color: #585858;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.form__textSpan {
+  color: #333333;
+  text-decoration: underline;
+}

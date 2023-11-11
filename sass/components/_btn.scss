@@ -1,0 +1,16 @@
+.button {
+  color: var(--white-color);
+  background-image: linear-gradient(to top, rgb(238, 122, 40), #ffa96b);
+  border: 1px;
+  border-radius: 10px;
+
+  font-family: inherit;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-image: linear-gradient(to top, #ffa96b, #ffa96b);
+  }
+}

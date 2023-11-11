@@ -1,0 +1,42 @@
+.ideasForPhoto__title {
+  margin-bottom: 32px;
+}
+
+.ideasForPhoto__text {
+  margin-bottom: 2px;
+
+  text-align: left;
+  overflow: hidden;
+
+  height: 260px;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: start;
+}
+
+.ideasForPhoto__button {
+  display: block;
+  padding: 0;
+
+  color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  min-height: 24px;
+  border-color: transparent;
+  margin-left: auto;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    margin-left: 16px;
+
+    width: 21px;
+    height: 10px;
+    background-image: url(../images/check-mark.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

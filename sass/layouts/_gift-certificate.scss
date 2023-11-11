@@ -1,0 +1,100 @@
+.giftCertificate__section {
+  padding-bottom: 130px;
+}
+
+.giftCertificate {
+  margin-bottom: 80px;
+}
+
+.giftCertificate__wrapper {
+  position: relative;
+  display: flex;
+  padding: 112px 180px 37px 120px;
+}
+
+.giftCertificate__wrapperContent {
+  padding-bottom: 113px;
+
+  min-width: 567px;
+}
+
+.giftCertificate__text {
+  margin-bottom: 8px;
+
+  color: var(--certificate-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.giftCertificate__title {
+  margin-bottom: 52px;
+
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.giftCertificate__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.giftCertificate__itemText {
+  display: inline-flex;
+  color: var(--primary-text-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+
+  &::before {
+    content: "";
+
+    margin-right: 16px;
+
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/gift-certificate/check-mark.svg);
+  }
+}
+
+.giftCertificate__wrapperImg {
+  position: absolute;
+  right: 86px;
+  top: -7px;
+}
+
+.giftCertificate__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.giftCertificate__validityText {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 380px;
+  text-align: center;
+}
+
+.giftCertificate__wrapperBtn {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 24px;
+  min-width: 342px;
+}
+
+.giftCertificate__button {
+  padding: 14px 97px;
+
+  font-weight: 600;
+  font-size: 16px;
+  width: 342px;
+}
